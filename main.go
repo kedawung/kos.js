@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/kedawung/kzm/server"
+	"github.com/kedawung/kos.js/server"
 	"github.com/jpillora/opts"
 )
 
@@ -13,7 +13,7 @@ func main() {
 	s := server.Server{
 		Title:      "Click here to save on Ur Gdrive",
 		Port:       2000,
-		ConfigPath: "node server.js.json",
+		ConfigPath: "kos.js.json",
 	}
 
 	o := opts.New(&s)
